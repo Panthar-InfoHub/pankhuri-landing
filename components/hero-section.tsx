@@ -30,8 +30,7 @@ export function HeroSection() {
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground max-w-xl leading-relaxed">
-              High-quality courses for women to upskill, earn & build confidence. Join our community of empowered
-              learners today.
+              1000+ Courses, 18+ Categories, ₹2.5 Lakh worth Courses. 
             </p>
 
             <div className="space-y-4 max-w-md">
@@ -67,7 +66,7 @@ export function HeroSection() {
                     size="lg"
                     className="w-full bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white rounded-full h-14 text-lg font-bold shadow-lg shadow-pink-500/30 hover:shadow-xl hover:shadow-pink-500/40 transition-all"
                   >
-                    Enroll Now
+                    Subscribe now
                   </Button>
                 </div>
               </div>

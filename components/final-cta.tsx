@@ -33,7 +33,7 @@ export function FinalCTA() {
               size="lg"
               className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white rounded-full px-10 h-14 text-lg shadow-lg shadow-pink-500/25"
             >
-              Enroll Now
+              Subscribe now
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             <Button

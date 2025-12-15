@@ -4,14 +4,14 @@ const steps = [
   {
     icon: Search,
     step: "01",
-    title: "Explore Courses",
+    title: "Get Membership",
     description: "Browse our curated collection of skill-based courses designed for women.",
   },
   {
     icon: MessageCircle,
     step: "02",
-    title: "Instant Doubt Solving",
-    description: "Get your questions answered instantly with expert guidance and support.",
+    title: "Explore and learn",
+    description: "Accurie Knowledge from 1000+ courses and learn everything",
   },
   {
     icon: Award,

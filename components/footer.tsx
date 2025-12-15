@@ -9,7 +9,7 @@ export function Footer() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
           <div className="space-y-6">
             <div className="flex items-center gap-2">
-              <Image src="/pankhuri-logo.png" alt="Pankhuri Logo" width={44} height={44} className="rounded-xl" />
+              <Image src="/logo.jpeg" alt="Pankhuri Logo" width={44} height={44} className="rounded-xl" />
               <span className="text-2xl font-bold">Pankhuri</span>
             </div>
             <p className="text-purple-200 leading-relaxed">
@@ -82,7 +82,7 @@ export function Footer() {
           <div>
             <h4 className="font-bold text-lg mb-6">Support</h4>
             <ul className="space-y-3">
-              <li>
+              {/* <li>
                 <Link href="#" className="text-purple-200 hover:text-pink-400 transition-colors">
                   Help Center
                 </Link>
@@ -91,19 +91,19 @@ export function Footer() {
                 <Link href="#" className="text-purple-200 hover:text-pink-400 transition-colors">
                   FAQs
                 </Link>
-              </li>
+              </li> */}
               <li>
-                <Link href="#" className="text-purple-200 hover:text-pink-400 transition-colors">
+                <Link href="/privacy-policy" className="text-purple-200 hover:text-pink-400 transition-colors">
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-purple-200 hover:text-pink-400 transition-colors">
+                <Link href="/terms-of-service" className="text-purple-200 hover:text-pink-400 transition-colors">
                   Terms of Service
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-purple-200 hover:text-pink-400 transition-colors">
+                <Link href="/refund-policy" className="text-purple-200 hover:text-pink-400 transition-colors">
                   Refund Policy
                 </Link>
               </li>
@@ -115,11 +115,11 @@ export function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <Mail className="h-5 w-5 text-pink-400 shrink-0 mt-0.5" />
-                <span className="text-purple-200">hello@pankhuri.com</span>
+                <span className="text-purple-200">support@pankhuri.co</span>
               </li>
               <li className="flex items-start gap-3">
                 <Phone className="h-5 w-5 text-pink-400 shrink-0 mt-0.5" />
-                <span className="text-purple-200">+91 98765 43210</span>
+                <span className="text-purple-200">+91 63661 32227</span>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-pink-400 shrink-0 mt-0.5" />
